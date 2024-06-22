@@ -1,5 +1,5 @@
 -- premake5.lua
-workspace "New Project"
+workspace "ChessStates"
    architecture "x64"
    configurations { "Debug", "Release", "Dist" }
    startproject "App"
@@ -11,7 +11,7 @@ workspace "New Project"
 OutputDir = "%{cfg.system}-%{cfg.architecture}/%{cfg.buildcfg}"
 
 group "Core"
-	include "Core/Build-Core.lua"
+	include "ChessStates-Core/Build-Core.lua"
 group ""
 
 include "App/Build-App.lua"

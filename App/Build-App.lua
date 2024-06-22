@@ -12,12 +12,12 @@ project "App"
       "Source",
 
 	  -- Include Core
-	  "../Core/Source"
+	  "../ChessStates-Core/Source"
    }
 
    links
    {
-      "Core"
+      "ChessStates-Core"
    }
 
    targetdir ("../Binaries/" .. OutputDir .. "/%{prj.name}")
