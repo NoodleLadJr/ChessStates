@@ -1,6 +1,6 @@
 -- premake5.lua
 workspace "ChessStates"
-   architecture "x64"
+   architecture "x32"
    configurations { "Debug", "Release", "Dist" }
    startproject "App"
 
