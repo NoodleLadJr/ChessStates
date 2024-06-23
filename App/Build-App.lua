@@ -17,7 +17,8 @@ project "App"
 
 	  -- Include Core
 	  "../ChessStates-Core/Source",
-      "../ChessStates-Core/Res/SFML-2.6.1/include"
+      "../ChessStates-Core/Res/SFML-2.6.1/include",
+      "../ChessStates-Core"
    }
 
    links
